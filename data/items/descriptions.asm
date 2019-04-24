@@ -608,7 +608,7 @@ SilverPowderDesc:
 BluApricornDesc:
 	db   "A blue APRICORN.@"
 
-LinkCable:
+LinkCableDesc:
 	db   "Evolves certain"
 	next "kinds of #MON.@"
 

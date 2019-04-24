@@ -156,7 +156,7 @@
 	const ITEM_94      ; 94
 	const ITEM_95      ; 95
 	const MYSTERYBERRY ; 96
-	const DRAGON_SCALE ; 97
+	const DRAGON_SCALE ; 97 ; Having added an evo stone like item for trade evolutions, the Dragon Scale has no purpose anymore.
 	const BERSERK_GENE ; 98
 	const ITEM_99      ; 99
 	const ITEM_9A      ; 9a

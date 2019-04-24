@@ -7,7 +7,7 @@
 	db GHOST, POISON ; type
 	db 190 ; catch rate
 	db 95 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	db NO_ITEM, LINK_CABLE ; items
 	db GENDER_F50 ; gender ratio
 	db 20 ; step cycles to hatch
 	INCBIN "gfx/pokemon/gastly/front.dimensions"

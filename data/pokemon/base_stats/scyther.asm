@@ -7,7 +7,7 @@
 	db BUG, FLYING ; type
 	db 45 ; catch rate
 	db 187 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	db NO_ITEM, LINK_CABLE ; items
 	db GENDER_F50 ; gender ratio
 	db 25 ; step cycles to hatch
 	INCBIN "gfx/pokemon/scyther/front.dimensions"
