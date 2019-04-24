@@ -1242,7 +1242,7 @@ endc
 	db 0 ; no more level-up moves
 
 GastlyEvosAttacks:
-	db EVOLVE_ITEM, 25, HAUNTER
+	db EVOLVE_ITEM, LINK_CABLE, HAUNTER
 	db 0 ; no more evolutions
 	db 1, HYPNOSIS
 	db 1, LICK
