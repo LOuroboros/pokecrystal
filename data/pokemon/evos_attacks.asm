@@ -2206,6 +2206,12 @@ SentretEvosAttacks:
 	db EVOLVE_LEVEL, 15, FURRET
 	db 0 ; no more evolutions
 	db 1, TACKLE
+	db 5, DEFENSE_CURL
+	db 11, QUICK_ATTACK
+	db 17, FURY_SWIPES
+	db 25, SLAM
+	db 33, REST
+	db 41, AMNESIA
 	db 0 ; no more level-up moves
 
 FurretEvosAttacks:
