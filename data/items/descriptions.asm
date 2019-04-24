@@ -49,10 +49,10 @@ ItemDescriptions:
 	dw SodaPopDesc
 	dw LemonadeDesc
 	dw XAttackDesc
-	dw TeruSama4Desc
 	dw XDefendDesc
 	dw XSpeedDesc
 	dw XSpecialDesc
+	dw EvioliteDesc
 	dw CoinCaseDesc
 	dw ItemfinderDesc
 	dw TeruSama5Desc
@@ -450,9 +450,6 @@ XAttackDesc:
 	db   "Raises ATTACK."
 	next "(1 BTL)@"
 
-TeruSama4Desc:
-	db   "?@"
-
 XDefendDesc:
 	db   "Raises DEFENSE."
 	next "(1 BTL)@"
@@ -464,6 +461,10 @@ XSpeedDesc:
 XSpecialDesc:
 	db   "Raises SPECIAL"
 	next "ATTACK. (1 BTL)@"
+
+EvioliteDesc:
+	db   "Raises DEFENSES of"
+	next "#MON with evos.@"
 
 CoinCaseDesc:
 	db   "Holds up to 9,999"
