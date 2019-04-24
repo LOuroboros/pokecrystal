@@ -177,7 +177,7 @@
 	const SUN_STONE    ; a9
 	const POLKADOT_BOW ; aa
 	const ITEM_AB      ; ab
-	const UP_GRADE     ; ac
+	const UP_GRADE     ; ac ; Having added an evo stone like item for trade evolutions, the Up-Grade has no purpose anymore.
 	const BERRY        ; ad
 	const GOLD_BERRY   ; ae
 	const SQUIRTBOTTLE ; af
