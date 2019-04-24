@@ -6864,7 +6864,7 @@ Function11b483:
 	ld hl, MON_MAXHP
 	add hl, de
 	push hl
-	ld hl, MON_STAT_EXP - 1
+	ld hl, MON_EVS - 1
 	add hl, de
 	pop de
 	push de
@@ -7277,7 +7277,7 @@ Function11b6b4:
 .done_level
 	ld [wCurPartyLevel], a
 
-	ld hl, $c60d + MON_STAT_EXP - 1
+	ld hl, $c60d + MON_EVS - 1
 	ld de, $c60d + MON_MAXHP
 	ld b, TRUE
 	predef CalcMonStats
