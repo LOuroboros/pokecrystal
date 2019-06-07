@@ -1,3 +1,7 @@
+# About this branch
+
+This is a backup fork of user [mid-kid](https://github.com/mid-kid)'s [optimization branch](https://github.com/mid-kid/pokecrystal/tree/optimization) of Pokecrystal.
+
 Optimized Pokémon Crystal
 =========================
 
