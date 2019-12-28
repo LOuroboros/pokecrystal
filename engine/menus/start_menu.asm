@@ -188,13 +188,13 @@ StartMenu::
 
 .PokedexString:  db "#DEX@"
 .PartyString:    db "#MON@"
-.PackString:     db "PACK@"
+.PackString:     db "MOCHILA@"
 .StatusString:   db "<PLAYER>@"
-.SaveString:     db "SAVE@"
-.OptionString:   db "OPTION@"
-.ExitString:     db "EXIT@"
+.SaveString:     db "GUARDAR@"
+.OptionString:   db "OPCIÓN@"
+.ExitString:     db "SALIR@"
 .PokegearString: db "<POKE>GEAR@"
-.QuitString:     db "QUIT@"
+.QuitString:     db "SALIR@"
 
 .PokedexDesc:
 	db   "#MON"

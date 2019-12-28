@@ -41,9 +41,9 @@ MainMenu:
 	dw .Strings
 
 .Strings:
-	db "CONTINUE@"
-	db "NEW GAME@"
-	db "OPTION@"
+	db "CONTINUAR@"
+	db "JUEGO NUEVO@"
+	db "OPCIÓN@"
 	db "MYSTERY GIFT@"
 	db "MOBILE@"
 	db "MOBILE STUDIUM@"
@@ -300,15 +300,15 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .Days:
-	db "SUN@"
-	db "MON@"
-	db "TUES@"
-	db "WEDNES@"
-	db "THURS@"
-	db "FRI@"
-	db "SATUR@"
+	db "DOMINGO@"
+	db "LUNES@"
+	db "MARTES@"
+	db "MIÉRCOLES@"
+	db "JUEVES@"
+	db "VIERNES@"
+	db "SÁBADO@"
 .Day:
-	db "DAY@"
+	db "DÍA@"
 
 Function49ed0:
 	xor a
